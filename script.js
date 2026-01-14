@@ -1,6 +1,8 @@
+const answer = prompt("Quantos blocos de desenho você quer?");
+
 const container = document.querySelector("#container");
 
-for (let i = 0; i < 256; i++) {
+for (let i = 0; i < answer; i++) {
     const div = document.createElement("div");
     div.classList.add("quadrado")
 
@@ -10,3 +12,4 @@ for (let i = 0; i < 256; i++) {
 
     container.appendChild(div);
 }
+

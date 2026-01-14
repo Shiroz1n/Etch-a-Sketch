@@ -8,10 +8,10 @@
 
 #container div {
     display: flex;
-    max-width: 200px;
-    flex: 1 0 200px;
+    max-width: 136px;
+    flex: 1 0 136px;
     border: 1px solid black;
-    margin: 5px;
+    margin: 2px;
     height: 200px;
     background-color: aqua;
     transition: background-color 0.2s ease;
