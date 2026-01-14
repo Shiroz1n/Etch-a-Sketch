@@ -3,11 +3,16 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    
 }
 
 #container div {
-    max-width: 136px;
-    flex: 1 0 136px;
+    display: flex;
+    max-width: 200px;
+    flex: 1 0 200px;
     border: 1px solid black;
     margin: 5px;
+    height: 200px;
+    background-color: aqua;
+    transition: background-color 0.2s ease;
 }
